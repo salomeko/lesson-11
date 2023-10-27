@@ -1,0 +1,227 @@
+.backroung-img {
+    max-width: 602px;
+    width: 100%;
+    flex-shrink: 0;
+}
+.flex-container {
+    display: flex;
+    flex-direction:row;
+}
+.register-forms-div {
+    background-color: #fff;
+    max-width: 581px;
+    width: 100%;
+    margin-left: -18px;
+    border-radius: 4%;
+}
+.logo {
+    margin-left: 156px;
+}
+.name {
+    color: #003D61;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 134.182%; /* 26.836px */
+    letter-spacing: 1.2px;
+    padding-top: -9.5px;
+    margin-left: 67px;
+}
+.name-input {
+    margin-left: 67px;
+    border-top:  0px #003D61;
+    border-right: 0px #003D61;
+    width: 420px;
+    line-height: 35px;
+}
+::placeholder {
+    color: #C4C4C4;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 134.182%; /* 16.102px */
+    letter-spacing: 0.72px;
+}
+.password-heading {
+    color: #94B7CD;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 134.182%; /* 26.836px */
+    letter-spacing: 1.2px;
+    margin-left: 67px;
+    margin-top: 14px;
+}
+.password-input {
+    margin-left: 67px;
+    border-top:  0px #003D61;
+    border-right: 0px #003D61;
+    width: 420px;
+    line-height: 35px;
+}
+.email-heading {
+    color:#003D61;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 134.182%; /* 26.836px */
+    letter-spacing: 1.2px;
+    margin-left: 67px;
+    margin-top: 14px;
+}
+.email-input {
+    margin-left: 67px;
+    border-top:  0px #003D61;
+    border-right: 0px #003D61;
+    width: 420px;
+    line-height: 35px;
+}
+.for-img {
+    position: relative;
+    max-width: 42px;
+    width: 100%;
+    height: 24px;
+    background-color: rgba(35, 61, 78, 0.83);
+    border-radius: 100px;
+    margin-left: 670px;
+    margin-top: -220px;
+}
+.knob {
+    position: absolute;
+    max-width: 18px;
+    width: 100%;
+    height: 18px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+.terms-text {
+    margin-left: 725px;
+    margin-top: -35px;
+}
+.terms-text a {
+    color: #ED2980;
+}
+.terms-text-ending {
+    margin-left: 30px;
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    margin-left: 735px;
+    margin-top: 36px;
+    gap: 75px;
+}
+.hidden{
+    display: none;
+    position: relative;
+}
+.register-form-2{
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    transform: translate(-50%, -50%);
+}
+.register-form-2-label{
+    color: #B8B8B8;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38.901px;
+    letter-spacing: 0.17px;
+}
+.register-form-2-input{
+    width: 327px;
+    border-top: 0px solid #4F4F4F4D;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 5px;
+}
+.register-form-2-item{
+    display: flex;
+    flex-direction: column;
+    column-gap: 16px;
+}
+.hidden-forgot-password{
+    color: #ED2980;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38.901px;
+    letter-spacing: 0.17px;
+    text-decoration-line: underline;
+    position: absolute;
+    left: 50%;
+    top: 188px;
+    transform: translate(-50%, -50%);
+}
+.hidden-logo{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    column-gap: 26.5px;
+    left: 50%;
+    top: 257px;
+    transform: translate(-50%, -50%);
+}
+.hidden-logo img{
+    width: 28px;
+}
+.hidden-button{
+    max-width: 327px;
+    width: 100%;
+    height: 50px;
+    background-color: #003D61;
+    border: none;
+    border-radius: 6px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 130px;
+    padding-right: 130px;
+    position: absolute;
+    left: 50%;
+    top: 334px;
+    transform: translate(-50%, -50%);
+}
+.hidden-button span{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.165px;
+}
+.hiddens-last-text{
+    color: var(--Gray-3, #828282);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.165px;
+    margin-top: 387px;
+}
+.hiddens-last-text a{
+    color: #ED2980;
+    margin-top: 100px;
+}
+
+@media (max-width: 1024px) {
+    .hidden{
+        display: block;
+    }
+    .form,
+    .terms-text,
+    .icons{
+        display: none;
+    }
+    .body{
+        grid-template-columns: 1fr;
+    }
+}
